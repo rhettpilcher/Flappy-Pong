@@ -16396,7 +16396,7 @@ SpriteRenderer:
   m_SortingLayer: -1
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.6886792, g: 0.2891153, b: 0.32158643, a: 1}
+  m_Color: {r: 0.6886792, g: 0.2891153, b: 0.32158643, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -34783,7 +34783,7 @@ MonoBehaviour:
           name: yes
           isSystemEvent: 0
           isGlobal: 0
-        toState: Rewarded Ad
+        toState: Fade (Revive)
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0

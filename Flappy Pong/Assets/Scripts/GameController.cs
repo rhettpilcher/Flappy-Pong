@@ -324,7 +324,9 @@ public class GameController : MonoBehaviour
     public void SetupGame()
     {
         if (!adsDisabled)
-            adsManager.LoadInterstitial();
+        {
+            //adsManager.LoadInterstitial(); disabled for prototype
+        }
         player.gameObject.layer = 3;
         totalNumRuns++;
         PlayerPrefs.SetInt("totalnumruns", totalNumRuns);
@@ -431,7 +433,9 @@ public class GameController : MonoBehaviour
         if (!adsDisabled)
         {
             if (revives == 0 && maxHeight >= 20 && totalNumRuns >= 6 && totalNumRuns % 2 == 0)
-                adsManager.ShowInterstitial();
+            {
+                //adsManager.ShowInterstitial(); disabled for prototype
+            }
         }
 
         if (!mission.timed && mission.distanceLimit >= 0)
