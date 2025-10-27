@@ -32,13 +32,13 @@ Ads and IAP: I struggled to implement ads in particular due to the somewhat conv
 Missions System: Implementing the missions system was surprisingly difficult due to the constraints I had set for myself. I wanted a random mission per-game with several possible categories:
 - Reward: Coins, gems, or shop item
 - Mission Type:
-        -- Distance - Reach this distance before dying
-        -- Coins - Collect or evade this many coins, timed (before this time) or distanced (before reaching this distance)
-        -- Walls - Break a certain type of wall a specific amount of times, timed or distanced
-        -- Combos: Perform an amount or length, timed or distanced
-        -- PowerUps: Evade or collect this many, timed or distanced
-        -- Revive: Revive this many times, timed or distanced
-        -- Hazards: Hit this amount while invincible, timed or distanced
+        - Distance - Reach this distance before dying
+        - Coins - Collect or evade this many coins, timed (before this time) or distanced (before reaching this distance)
+        - Walls - Break a certain type of wall a specific amount of times, timed or distanced
+        - Combos: Perform an amount or length, timed or distanced
+        - PowerUps: Evade or collect this many, timed or distanced
+        - Revive: Revive this many times, timed or distanced
+        - Hazards: Hit this amount while invincible, timed or distanced
 - Difficulty: Easy, medium, hard; with each difficulty having a higher reward but more conditions needed to be met
 
 I ended up creating a class for Missions that could handle all of the condition checking and randomization to be used as an object for each mission instance.
