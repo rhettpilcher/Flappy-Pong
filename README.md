@@ -7,7 +7,7 @@
 
 ## Summary
 
-Flappy Pong is a mobile game prototype I made with the goal of familiarizing myself with mobile game development, specifically in Unity. I wanted to learn exactly how to implement ad serving and IAP. I went above and beyond by designing many bonus mechanics and upgrades including:
+Flappy Pong is a mobile game prototype I made with the goal of familiarizing myself with mobile game development, specifically in Unity. I wanted to learn exactly how to implement ad serving and IAP. I went above and beyond by designing many bonus mechanics, upgrades, and systems including:
 - power ups
 - bonus gameplay boosters like cannons
 - cosmetic skins, trails and background themes
@@ -17,7 +17,7 @@ Flappy Pong is a mobile game prototype I made with the goal of familiarizing mys
 - a fully implemented shop system
 - mock monetization with IAP and Interstitial + Rewarded ads
 
-The games functionality is more or less at an alpha phase with all design and functionallity complete. I may continue and ship this project in the future.
+The prototype is more or less at an alpha phase with all design and functionallity complete. I may continue and ship this project in the future.
 
 ## Tools & Technologies
 
