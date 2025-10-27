@@ -31,8 +31,8 @@ Ads and IAP: I struggled to implement ads in particular due to the somewhat conv
 
 Missions System: Implementing the missions system was surprisingly difficult due to the constraints I had set for myself. I wanted a random mission per-game with several possible categories:
 - Reward: Coins, gems, or shop item
-- Mission Type:
-        | Distance - Reach this distance before dying 
+- Mission Type: 
+        Distance - Reach this distance before dying 
         | Coins - Collect or evade this many coins, timed (before this time) or distanced (before reaching this distance) 
         | Walls - Break a certain type of wall a specific amount of times, timed or distanced 
         | Combos: Perform an amount or length, timed or distanced 
